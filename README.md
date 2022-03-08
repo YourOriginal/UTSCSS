@@ -12,12 +12,8 @@
 
 We first analyzed the data and compiled a pivot table containing the filters "Parent Category" and "Years" with our results in the columns and months of the year in rows as shown in the image below.
 
-![alt-text-1](https://user-images.githubusercontent.com/100324759/157336496-4fbdb8d0-7f14-4d37-bd26-23b714b06c49.PNG") ![alt-text-2](https://user-images.githubusercontent.com/100324759/157338148-21357866-0ace-42c3-b383-43b1a3769795.png")
+![Pivot_Table](https://user-images.githubusercontent.com/100324759/157336496-4fbdb8d0-7f14-4d37-bd26-23b714b06c49.PNG") ![Graph](https://user-images.githubusercontent.com/100324759/157338148-21357866-0ace-42c3-b383-43b1a3769795.png")
 
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/100324759/157336496-4fbdb8d0-7f14-4d37-bd26-23b714b06c49.PNG" width="200" />
-  <img src="https://user-images.githubusercontent.com/100324759/157338148-21357866-0ace-42c3-b383-43b1a3769795.png" width="200" /> 
-</p>
 
 This pivot table provides a clean and organized set of data that summarizes our results for theatrical based Kickstarters based on the month of release which we then plotted onto a line graph
 
