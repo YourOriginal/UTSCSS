@@ -16,10 +16,10 @@ We first analyzed the data and compiled a pivot table containing the filters "Pa
 
 
 <p align="center" width="100%">
-    <img width="33%" src="https://user-images.githubusercontent.com/100324759/157336387-a7478722-56e1-49f5-862f-8f253462bce8.PNG">
+    <img width="33%" src="https://user-images.githubusercontent.com/100324759/157336496-4fbdb8d0-7f14-4d37-bd26-23b714b06c49.PNG">
 </p>
 
-    
+
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
