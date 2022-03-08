@@ -8,7 +8,7 @@
 
 ## Analysis and Challenges
 
-how i performed analysis + images and codes
+// how i performed analysis + images and codes
 
 ### Analysis of Outcomes Based on Launch Date
 
