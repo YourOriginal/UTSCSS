@@ -1,9 +1,10 @@
 # My Kickstarter Analysis for U of T SCS Data Analytics
 
 ## Overview of Project
-    Fundraising projects through kickstarter has become a popularized outlet for creators to attract the attention of fans while also generating funds to help assist in creating their goal. However, not all goals are reached. 
+
+   Fundraising projects through kickstarter has become a popularized outlet for creators to attract the attention of fans while also generating funds to help assist in creating their goal. However, not all goals are reached. 
     
-    In the case of Louise's play *Fever*, she was just shy of reaching her goal. Now, she's curious if there is a trend amongst kickstarter campaigns and their success rate in relation to the launch date and goal. In this project, we will analyze the data acquired from thousands of kickstarter campaigns and see if there are any trends in the data by using excel.
+   In the case of Louise's play *Fever*, she was just shy of reaching her goal. Now, she's curious if there is a trend amongst kickstarter campaigns and their success rate in relation to the launch date and goal. In this project, we will analyze the data acquired from thousands of kickstarter campaigns and see if there are any trends in the data by using excel.
 
 ## Analysis and Challenges
 
