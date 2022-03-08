@@ -16,7 +16,7 @@ We first analyzed the data and compiled a pivot table containing the filters "Pa
 
 
 <p align="center" width="100%">
-    <img width="33%" src="![Capture](https://user-images.githubusercontent.com/100324759/157336387-a7478722-56e1-49f5-862f-8f253462bce8.PNG)">
+    <img width="33%" src="https://user-images.githubusercontent.com/100324759/157336387-a7478722-56e1-49f5-862f-8f253462bce8.PNG">
 </p>
 
     
