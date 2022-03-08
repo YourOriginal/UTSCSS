@@ -12,7 +12,7 @@
 
 We first analyzed the data and compiled a pivot table containing the filters "Parent Category" and "Years" with our results in the columns and months of the year in rows as shown in the image below.
 
-<p align=center width="100"
+<p align="center" width="100"
    ![theatre outcomes vs launch pivot](https://user-images.githubusercontent.com/100324759/157338930-146a87cf-f701-4a05-a7e4-1511b7926a7c.PNG)
 </p>
 
