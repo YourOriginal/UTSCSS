@@ -13,10 +13,6 @@
 We first analyzed the data and compiled a pivot table containing the filters "Parent Category" and "Years" with our results in the columns and months of the year in rows as shown in the image below.
 
 
-<p align="center" width="100%">
-    <img width="33%" src="https://user-images.githubusercontent.com/100324759/157336496-4fbdb8d0-7f14-4d37-bd26-23b714b06c49.PNG">
-</p>
-
 <p float="left">
   <img src="https://user-images.githubusercontent.com/100324759/157336496-4fbdb8d0-7f14-4d37-bd26-23b714b06c49.PNG" width="100" />
   <img src="https://user-images.githubusercontent.com/100324759/157338148-21357866-0ace-42c3-b383-43b1a3769795.png" width="100" /> 
