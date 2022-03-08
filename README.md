@@ -8,8 +8,6 @@
 
 ## Analysis and Challenges
 
-// how i performed analysis + images and codes
-
 ### Analysis of Outcomes Based on Launch Date
 
 We first analyzed the data and compiled a pivot table containing the filters "Parent Category" and "Years" with our results in the columns and months of the year in rows as shown in the image below.
@@ -18,6 +16,13 @@ We first analyzed the data and compiled a pivot table containing the filters "Pa
 <p align="center" width="100%">
     <img width="33%" src="https://user-images.githubusercontent.com/100324759/157336496-4fbdb8d0-7f14-4d37-bd26-23b714b06c49.PNG">
 </p>
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/100324759/157336496-4fbdb8d0-7f14-4d37-bd26-23b714b06c49.PNG" width="100" />
+  <img src="https://user-images.githubusercontent.com/100324759/157338148-21357866-0ace-42c3-b383-43b1a3769795.png" width="100" /> 
+</p>
+
+This pivot table provides a clean and organized set of data that summarizes our results for theatrical based Kickstarters based on the month of release which we then plotted onto a line graph
 
 
 ### Analysis of Outcomes Based on Goals
