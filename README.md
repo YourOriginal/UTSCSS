@@ -14,8 +14,8 @@ We first analyzed the data and compiled a pivot table containing the filters "Pa
 
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/100324759/157336496-4fbdb8d0-7f14-4d37-bd26-23b714b06c49.PNG" width="100" />
-  <img src="https://user-images.githubusercontent.com/100324759/157338148-21357866-0ace-42c3-b383-43b1a3769795.png" width="100" /> 
+  <img src="https://user-images.githubusercontent.com/100324759/157336496-4fbdb8d0-7f14-4d37-bd26-23b714b06c49.PNG" width="1500" />
+  <img src="https://user-images.githubusercontent.com/100324759/157338148-21357866-0ace-42c3-b383-43b1a3769795.png" width="1500" /> 
 </p>
 
 This pivot table provides a clean and organized set of data that summarizes our results for theatrical based Kickstarters based on the month of release which we then plotted onto a line graph
