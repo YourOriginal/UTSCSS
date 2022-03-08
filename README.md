@@ -14,7 +14,10 @@ how i performed analysis + images and codes
 
 We first analyzed the data and compiled a pivot table containing the filters "Parent Category" and "Years" with our results in the columns and months of the year in rows as shown in the image below.
 
-![image](https://user-images.githubusercontent.com/100324759/157336225-b2d5b31e-2e79-4d7d-9dd5-bd61cf52b060.png)
+
+<p align="center" width="100%">
+    <img width="33%" src="![Capture](https://user-images.githubusercontent.com/100324759/157336387-a7478722-56e1-49f5-862f-8f253462bce8.PNG)">
+</p>
 
     
 ### Analysis of Outcomes Based on Goals
