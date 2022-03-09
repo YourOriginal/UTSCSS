@@ -34,10 +34,10 @@ This pivot table provides a clean and organized set of data that summarizes our 
    
    The data needed several formulas to extract the correct information. 
    
-   Formula for: Number successful/failed/canceled - =COUNTIFS(Kickstarter!F:F, "x", Kickstarter!D:D,"<1000",Kickstarter!R:R,"plays")
-      
-      where x is the criteria for our search
-   
+   Formula for: Number successful/failed/canceled - 
+
+    "  =COUNTIFS(Kickstarter!F:F, "x", Kickstarter!D:D,"<"1000",Kickstarter!R:R,"plays")"
+ 
 ### Challenges and Difficulties Encountered
 
 
