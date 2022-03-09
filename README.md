@@ -42,6 +42,10 @@ This pivot table provides a clean and organized set of data that summarizes our 
    
       =sum(range)
  
+   The last 3 columns all used a similar formula where the column of interest was divided by the total projects to get *percentage success,failed and canceled*
+   
+      =(count of x/total projects)
+   
 ### Challenges and Difficulties Encountered
 
 
