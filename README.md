@@ -24,10 +24,20 @@ This pivot table provides a clean and organized set of data that summarizes our 
   
 ### Analysis of Outcomes Based on Goals
    
-   The next data set we wanted to analyze was the success rate of plays on their kickstarter campaigns based on their initial goals to see if there is an identifiable trend.
+   The next data set we wanted to analyze was the success rate of plays and their kickstarter campaigns based on their initial goals to see if there is an identifiable trend. 
+     
+   To get the neccessary numbers, we had to create a table that relates a range of values for goals and the number of campaigns that were successful/failed/canceled within a given range as shown in teh table below left. 
+   
+<p align="right">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/100324759/157353168-08d675f1-4366-4414-b329-6b571a461dfc.PNG"
+       align="left">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/100324759/157353213-58594e19-6e6d-4551-a2ea-4e0eeacee303.png"
+</p>
    
 ### Challenges and Difficulties Encountered
 
+
+   
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
