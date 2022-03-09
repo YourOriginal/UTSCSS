@@ -60,8 +60,12 @@ This pivot table provides a clean and organized set of data that summarizes our 
    
 ## Results
 
-The data showed relatively promising patterns 
+The data showed relatively promising patterns in both the outcomes based on launch date and outcomes based on goals. 
 
-- What are some limitations of this dataset?
+During the summer months, most notably May/June, theatre kickstarters are at their peak and show a steady decline over time in both total fundraisers and number of successful fundraisers. Interestingly the number of failed kickstarters were relatively consistent, indicating a greater percent of success during those peak months. Based on the information, we can conclude that theatre kickstarters are more likely to succeed during summer months than during winter months and there are also more kickstarter campaigns during those same months.
+
+The outcomes based on goals also displayed some form of pattern. Projects with small goals had a higher percentage of successes and this rate increased up intil the $10,000  - $14,999 range where the results began to reverse. Both the total projects declined as the goal range increased and the percentage of failure but the data became more erradict at high ranges, most likely due to a low sample thus making the data more skewed.
+
+## Limitations of the Analysis
 
 - What are some other possible tables and/or graphs that we could create?
