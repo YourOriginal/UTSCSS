@@ -36,7 +36,7 @@ This pivot table provides a clean and organized set of data that summarizes our 
    
    Formula for: Number successful/failed/canceled - 
 
-    "  =COUNTIFS(Kickstarter!F:F, "x", Kickstarter!D:D,"<"1000",Kickstarter!R:R,"plays")"
+      =COUNTIFS(Kickstarter!F:F, "x", Kickstarter!D:D,"<"1000",Kickstarter!R:R,"plays") ""
  
 ### Challenges and Difficulties Encountered
 
