@@ -39,6 +39,7 @@ This pivot table provides a clean and organized set of data that summarizes our 
       =COUNTIFS(Kickstarter!F:F, "x", Kickstarter!D:D,"range",Kickstarter!R:R,"plays") 
    
    To count *Total Projects* the sum of the values in the former rows were calculated using 
+   
       =sum(range)
  
 ### Challenges and Difficulties Encountered
