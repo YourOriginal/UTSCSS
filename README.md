@@ -48,14 +48,12 @@ This pivot table provides a clean and organized set of data that summarizes our 
    
 ### Challenges and Difficulties Encountered
 
-   The formulas and procedure of creating pivot tables, calculating totals and percentages were all straight forward and I encountered no difficulty. The most challenging part of the project was coming up with the countifs statement to count the number of success/failed/canceled. It was originally confusing when determining the the order of criterias along with proper syntax but after some searching and testing on simpler tables I was able to solve my issues. 
+   The formulas and procedure of creating pivot tables, calculating totals and percentages were all straight forward and I encountered no difficulty. The most challenging part of the project was coming up with the countifs statement to count the number of success/failed/canceled. It was originally confusing when determining the the order of criterias along with proper syntax to fit the ranges I wanted, but after some searching and testing on simpler tables I was able to solve my issues. 
 
    
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-
-- What can you conclude about the Outcomes based on Goals?
+The data showed relatively promising patterns 
 
 - What are some limitations of this dataset?
 
