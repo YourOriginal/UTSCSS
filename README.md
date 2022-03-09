@@ -34,16 +34,16 @@ This pivot table provides a clean and organized set of data that summarizes our 
    
    The data needed several formulas to extract the correct information. 
    
-   To count the *Number successful/failed/canceled* where x is our condition of search and range is the goal ranges.
+   To count the **Number successful/failed/canceled** where x is our condition of search and range is the goal ranges.
 
       =COUNTIFS(Kickstarter!F:F, "x", Kickstarter!D:D,"range",Kickstarter!R:R,"plays") 
    
-   To count *Total Projects* the sum of the values in the former rows were calculated using 
+   To count **Total Projects** the sum of the values in the former rows were calculated using 
    
       =sum(range)
  
-   The last 3 columns all used a similar formula where the column of interest was divided by the total projects to get *percentage success,failed and canceled*
-   
+   The last 3 columns all used a similar formula where the column of interest was divided by the total projects to get **Percentage success, failed and canceled**
+  
       =(count of x/total projects)
    
 ### Challenges and Difficulties Encountered
