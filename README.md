@@ -46,6 +46,10 @@ This pivot table provides a clean and organized set of data that summarizes our 
   
       =(count of x/total projects)
    
+   The data was then graphed so we could visualize the info more easily.
+   
+   ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/100324759/157355748-bc86e6da-2b29-47f3-8a9b-19e201c644e0.png)
+
 ### Challenges and Difficulties Encountered
 
    The formulas and procedure of creating pivot tables, calculating totals and percentages were all straight forward and I encountered no difficulty. The most challenging part of the project was coming up with the countifs statement to count the number of success/failed/canceled. It was originally confusing when determining the the order of criterias along with proper syntax to fit the ranges I wanted, but after some searching and testing on simpler tables I was able to solve my issues. 
