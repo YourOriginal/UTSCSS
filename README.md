@@ -26,11 +26,17 @@ This pivot table provides a clean and organized set of data that summarizes our 
    
    The next data set we wanted to analyze was the success rate of plays and their kickstarter campaigns based on their initial goals to see if there is an identifiable trend. 
      
-   To get the neccessary numbers, we had to create a table that relates a range of values for goals and the number of campaigns that were successful/failed/canceled within a given range as shown in teh table below left. 
+   To get the neccessary numbers, we had to create a table that relates a range of values for goals and the number of campaigns that were successful/failed/canceled within a given range as shown in the table below.
    
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100324759/157353168-08d675f1-4366-4414-b329-6b571a461dfc.PNG"
 </p>
+   
+   The data needed several formulas to extract the correct information. 
+   
+   Formula for: Number successful/failed/canceled - =COUNTIFS(Kickstarter!F:F, "x", Kickstarter!D:D,"<1000",Kickstarter!R:R,"plays")
+      
+      where x is the criteria for our search
    
 ### Challenges and Difficulties Encountered
 
