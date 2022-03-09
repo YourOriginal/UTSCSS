@@ -48,7 +48,7 @@ This pivot table provides a clean and organized set of data that summarizes our 
    
    The data was then graphed so we could visualize the info more easily.
    
-   ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/100324759/157355748-bc86e6da-2b29-47f3-8a9b-19e201c644e0.png | width = 500)
+   ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/100324759/157355748-bc86e6da-2b29-47f3-8a9b-19e201c644e0.png|width=500)
 
 ### Challenges and Difficulties Encountered
 
