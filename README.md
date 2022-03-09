@@ -68,4 +68,7 @@ The outcomes based on goals also displayed some form of pattern. Projects with s
 
 ## Limitations of the Analysis
 
+While the data showed patterns in both analysis, 
+
+No statistical significance test was performed but if we were to find and calculate the P value across our data, it would provide us with more reliable test results
 - What are some other possible tables and/or graphs that we could create?
