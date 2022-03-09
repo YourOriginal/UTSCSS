@@ -28,10 +28,8 @@ This pivot table provides a clean and organized set of data that summarizes our 
      
    To get the neccessary numbers, we had to create a table that relates a range of values for goals and the number of campaigns that were successful/failed/canceled within a given range as shown in teh table below left. 
    
-<p align="right">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/100324759/157353168-08d675f1-4366-4414-b329-6b571a461dfc.PNG"
-       align="left">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/100324759/157353213-58594e19-6e6d-4551-a2ea-4e0eeacee303.png"
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/100324759/157353168-08d675f1-4366-4414-b329-6b571a461dfc.PNG"
 </p>
    
 ### Challenges and Difficulties Encountered
