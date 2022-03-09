@@ -10,7 +10,7 @@
 
 ### Analysis of Outcomes Based on Launch Date
 
-We first analyzed the data and compiled a pivot table containing the filters "Parent Category" and "Years" with our results in the columns and months of the year in rows as shown in the image below to the left.
+I first analyzed the data and compiled a pivot table containing the filters "Parent Category" and "Years" with our results in the columns and months of the year in rows as shown in the image below to the left.
 
 
 <p align="right">
@@ -48,6 +48,7 @@ This pivot table provides a clean and organized set of data that summarizes our 
    
 ### Challenges and Difficulties Encountered
 
+   The formulas and procedure of creating pivot tables, calculating totals and percentages were all straight forward and I encountered no difficulty. The most challenging part of the project was coming up with the countifs statement to count the number of success/failed/canceled. It was originally confusing when determining the the order of criterias along with proper syntax but after some searching and testing on simpler tables I was able to solve my issues. 
 
    
 ## Results
