@@ -24,7 +24,7 @@ This pivot table provides a clean and organized set of data that summarizes our 
   
 ### Analysis of Outcomes Based on Goals
    
-   The next trend we wanted to analyze was the success rate of plays on their kickstarter campaigns based on their initial goals.
+   The next data set we wanted to analyze was the success rate of plays on their kickstarter campaigns based on their initial goals to see if there is an identifiable trend.
    
 ### Challenges and Difficulties Encountered
 
