@@ -48,7 +48,7 @@ This pivot table provides a clean and organized set of data that summarizes our 
    
    The data was then graphed so we could visualize the info more easily.
    
-   <img src="https://user-images.githubusercontent.com/100324759/157356014-d1a6deed-15d1-4e04-b8bb-ef95daee17d0.png" width="1321" height="666">
+   <img src="https://user-images.githubusercontent.com/100324759/157356014-d1a6deed-15d1-4e04-b8bb-ef95daee17d0.png" width="700" height="300">
 
   
 
