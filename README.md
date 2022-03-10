@@ -75,3 +75,5 @@ One of the confounds unaccounted for are the presence of outliers. No IQR Analys
 ## Conclusion
 
 In summary, the data showed notable trends in both outcomes based on goals/launch dates. Kickstarter projects were most successful during the summer months and when their pledge was below $15,000 and as you moved outside these parameters, the overall success rate began to decrease in both conditions as seen in their respective graphs
+
+Aside from the line graphs, other approaches may also have been viable to analyze the data. A stacked bar graph could also have been used to cluster the data (success/failed/canceled) into their sections such as month for outcomes based on date and $ goal for outcomes based on goal. This graph would allow the same visualization without seeing and comparing 3 lines, albeit, you still have to look at the sectioning within the bars.
