@@ -68,7 +68,10 @@ The outcomes based on goals also displayed some form of pattern. Projects with s
 
 ## Limitations of the Analysis
 
-While the data showed patterns in both analysis, 
+While the data showed patterns in both analysis, confounds may exist in our data that could skew the results. 
 
-No statistical significance test was performed but if we were to find and calculate the P value across our data, it would provide us with more reliable test results
-- What are some other possible tables and/or graphs that we could create?
+One of the confounds unaccounted for are the presence of outliers. No IQR Analysis was performed and having kickstarters that had unreasonably high goals while having a low sample size such as the $25,000+ goal ranges does not provide a accurate measure and can be reflected in the large jumps in the "Outcomes Based on Goal" graph. Two examples are the $40,000-$44,999 and $45,000-$49,999 range where we have a total sample size of 3 and 1 respectively with a 2/1 ratio along with a 1/1 failure rate. Furthermore, no statistical significance test was performed but if we were to find and calculate the P value across our data, it would provide us with more reliable test results
+
+## Conclusion
+
+In summary, the data showed notable trends in both outcomes based on goals/launch dates. Kickstarter projects were most successful during the summer months and when their pledge was below $15,000 and as you moved outside these parameters, the overall success rate began to decrease in both conditions as seen in their respective graphs
