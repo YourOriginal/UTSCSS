@@ -1,2 +1,1 @@
-# UTSCSS
-Projects for SCSS
+
