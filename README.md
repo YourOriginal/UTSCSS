@@ -31,9 +31,31 @@ Intuitively, this makes no sense as the code ran near instantaneously and compar
 
   After reviewing with my study group and a helper, we were unable to determine the cause of such error after restarting, and copy pasting. The code was then changed from:
   
-  Dim startTime As Single
+  ```
+    Dim startTime As Single
     Dim endTime  As Single
 
     yearValue = InputBox("What year would you like to run the analysis on?")
 
     startTime = Timer
+    .
+    .
+    endTime = Timer
+    MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
+
+  ```
+  
+ to
+    
+  ```
+    Dim startTime As Single
+    Dim endTime  As Single
+
+    yearValue = InputBox("What year would you like to run the analysis on?")
+
+    startTime = Timer
+    .
+    .
+    endTime = Timer
+    MsgBox "This code ran in " & ((endTime - startTime)/100000) & " seconds for the year " & (yearValue)
+  ```
