@@ -16,9 +16,9 @@ The performance of the listed stocks showed contrasting returns in the years of 
 
 <p align = "center"
 
-<2017 Analysis            |  2018 Analysis
+2017 Analysis            |  2018 Analysis
 :-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/100324759/158687693-63936f39-968c-461a-a596-752d0e8e060f.PNG)  |  ![](https://user-images.githubusercontent.com/100324759/158687735-75d5b42a-2871-4509-aaa9-07a0244029d1.PNG)>
+![](https://user-images.githubusercontent.com/100324759/158687693-63936f39-968c-461a-a596-752d0e8e060f.PNG)  |  ![](https://user-images.githubusercontent.com/100324759/158687735-75d5b42a-2871-4509-aaa9-07a0244029d1.PNG)
 
 </p>
 
