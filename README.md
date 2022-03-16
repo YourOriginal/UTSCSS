@@ -5,6 +5,7 @@
   Stock analysis plays a pivotol role in many investors decision making. Trends and patterns can be visualized and thus informs the investor, allowing them to make informed decisions. While this analysis can be done in many ways such as excel for formulas and calculations, the manual and labour intensive process is also prone to mistakes. The use of code to create an automated analysis through VBA allows the user to reduce the time it takes and mistakes in one process.
   
   Given a set of data, we aim to analyze thousands of stock's performance over 2 years for *Steve's Parents* in an effort to improve their investment opportunities while also assessing our refactored VBA script to determine the efficacy.
+  
 ## Results
 
 ### Code Breakdown
@@ -68,7 +69,9 @@ The performance of the listed stocks showed contrasting returns in the years of 
   
   ### Script Performance
 
-  Overall, the refactored script proved very handy as it provided a well structured and organized code that we know will serve the intended purpose. However, amongst the pros of refactoring, the cons of refactoring code can not be disregarded. Reusing code can introduce new bugs and errors that I would usually not catch and is true for most codes as every time it's changed, there is potential for a bug. In my case, the time displayed for how long the script ran was not accurate in the original module sheet where as my assignment had a correctly displayed time - as shown below for **MODULE WORK**.
+  Overall, the refactored script proved very handy as it provided a well structured and organized code that we know will serve the intended purpose. However, amongst the pros of refactoring, the cons of refactoring code can not be disregarded. Reusing code can introduce new bugs and errors that I would usually not catch and is true for most codes as every time it's changed, there is potential for a bug. Furthermore, due to the nature of refactoring, the efficacy of the code may not improve. 
+  
+  In my case, the time displayed for how long the script ran was not accurate in the original module sheet where as my assignment had a correctly displayed time - as shown below for **MODULE WORK**.
   
   
   <p align = "center">
@@ -113,5 +116,9 @@ Intuitively, this makes no sense as the code ran near instantaneously and compar
     MsgBox "This code ran in " & ((endTime - startTime)/100000) & " seconds for the year " & (yearValue)
   ```
 ONLY in the module to get a more appropriate time of ~0.5 seconds. Not only does this show the possibility for bugs but also that refactoring code may not improve efficacy as the structure and format of the original code remains, for the most part, unchanged.
+  
+ ## Conclusion
+  
+  In summary, the analysis on stock performance during the years of 2017 and 2018 showed a greater return during the 2018 years than the 2017 years as return was nearly all negative in 2017 as contrasted to 2018. Furthermore, the refactoring of the code provided a defined structure and known outcomes but did not seem to improve efficacy of the process.
   
 
