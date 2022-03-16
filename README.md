@@ -20,7 +20,15 @@ The performance of the listed stocks showed contrasting returns in the years of 
   <img width="320" height="400" src="https://user-images.githubusercontent.com/100324759/158687693-63936f39-968c-461a-a596-752d0e8e060f.PNG"
 </p>
 
-### Script Performance
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/100324759/158687693-63936f39-968c-461a-a596-752d0e8e060f.PNG)  |  ![](https://user-images.githubusercontent.com/100324759/158687735-75d5b42a-2871-4509-aaa9-07a0244029d1.PNG)
+  
+ 2018 https://user-images.githubusercontent.com/100324759/158687735-75d5b42a-2871-4509-aaa9-07a0244029d1.PNG
+ 2017 https://user-images.githubusercontent.com/100324759/158687693-63936f39-968c-461a-a596-752d0e8e060f.PNG
+  
+  
+  ### Script Performance
 
   Overall, the refactored script proved very handy as it provided a well structured and organized code that we know will serve the intended purpose. However, amongst the pros of refactoring, the cons of refactoring code can not be disregarded. Reusing code can introduce new bugs and errors that I would usually not catch and is true for most codes as every time it's changed, there is potential for a bug. In my case, the time displayed for how long the script ran was not accurate in the original module sheet where as my assignment had a correctly displayed time - as shown below for **MODULE WORK**.
   
