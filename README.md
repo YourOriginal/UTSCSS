@@ -22,9 +22,18 @@ The performance of the listed stocks showed contrasting returns in the years of 
   <img width="370" height="300" src="https://user-images.githubusercontent.com/100324759/158685633-777bbf85-404d-418f-80e6-bba9b5309068.PNG">
  </p>
 
-Intuitively, this makes no sense as the code ran near instantaneously and compared to the assignment code run time:
+Intuitively, this makes no sense as the code ran near instantaneously and compared to the **ASSIGNMENT** code run time:
 
 
 <p align = "center">
   <img width="370" height="300" src="https://user-images.githubusercontent.com/100324759/158686448-942f4c28-a042-495f-a1cb-9dff066b3a82.PNG"
  </p>
+
+  After reviewing with my study group and a helper, we were unable to determine the cause of such error after restarting, and copy pasting. The code was then changed from:
+  
+  Dim startTime As Single
+    Dim endTime  As Single
+
+    yearValue = InputBox("What year would you like to run the analysis on?")
+
+    startTime = Timer
