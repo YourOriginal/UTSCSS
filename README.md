@@ -7,18 +7,52 @@
   Given a set of data, we aim to analyze thousands of stock's performance over 2 years for *Steve's Parents* in an effort to improve their investment opportunities while also assessing our refactored VBA script to determine the efficacy.
 ## Results
 
-### Stock Performance
+### Code Breakdown
 
 To perform our analysis, a series of for loops was created to run through our stocks within a year based on a given user input. The user input would then activate the desired worksheet with the correct data and initialize our array of all the tickers in our excel using the code
-
+```
 Dim tickers(12) As String
     
     tickers(0) = "AY"
     tickers(1) = "CSIQ"
     tickers(2) = "DQ"
-    tickers(3) = "ENPH"
-    tickers(4) = "FSLR" 
+    ...
+```
+After array initialization, a ticker index was created and a series of for loop followed that would loop through the data,
+``` 
+ For i = 0 To 11
+    
+        tickerVolume = 0
+        Worksheets(yearValue).Activate
+        For j = 2 To RowCount
+```
+If the cell was matching tickers then the volume will be increased
+```
+If Cells(j, 1).Value = tickers(i) Then
+                                
+                    tickerVolume = tickerVolume + Cells(j, 8).Value
+                                
+               End If
+```
+If the current row is the first row of the index then the "close" row in the data sheet was set to the starting price
+```
+ If Cells(j - 1, 1).Value <> tickers(i) And Cells(j, 1).Value = tickers(i) Then
+                                
+                    tickerStartingPrices = Cells(j, 6).Value
+                                
+                End
+```
+and if the current row is the final row that contains the ticker then it was set to the final ending price
 
+```
+If Cells(j + 1, 1).Value <> tickers(i) And Cells(j, 1).Value = tickers(i) Then
+                
+        '3d) Increase the tickerIndex.
+                                
+                    tickerEndingPrices = Cells(j, 6).Value
+                End if
+```
+### Stock Performance
 
 The performance of the listed stocks showed contrasting returns in the years of 2017 and 2018. In 2017, almost all stocks showed a great degree of return (+67.3%) with TERP being the only stock to perform negatively. When change analysis over to the 2018 year, we can see a drastic change in performance from positive to negative with the stocks performaning at an average return of -8.5% with the only stocks netting a positive return being ENPH, and RUN.
 
