@@ -9,7 +9,15 @@
 
 ### Stock Performance
 
-To perform
+To perform our analysis, a series of for loops was created to run through our stocks within a year based on a given user input. The user input would then activate the desired worksheet with the correct data and initialize our array of all the tickers in our excel using the code
+
+Dim tickers(12) As String
+    
+    tickers(0) = "AY"
+    tickers(1) = "CSIQ"
+    tickers(2) = "DQ"
+    tickers(3) = "ENPH"
+    tickers(4) = "FSLR" 
 
 
 The performance of the listed stocks showed contrasting returns in the years of 2017 and 2018. In 2017, almost all stocks showed a great degree of return (+67.3%) with TERP being the only stock to perform negatively. When change analysis over to the 2018 year, we can see a drastic change in performance from positive to negative with the stocks performaning at an average return of -8.5% with the only stocks netting a positive return being ENPH, and RUN.
