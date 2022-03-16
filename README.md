@@ -1,14 +1,14 @@
 # Stocks Analysis Using VBA
 
-## Overview of Project
+## **Overview of Project**
 
   Stock analysis plays a pivotol role in many investors decision making. Trends and patterns can be visualized and thus informs the investor, allowing them to make informed decisions. While this analysis can be done in many ways such as excel for formulas and calculations, the manual and labour intensive process is also prone to mistakes. The use of code to create an automated analysis through VBA allows the user to reduce the time it takes and mistakes in one process.
   
   Given a set of data, we aim to analyze thousands of stock's performance over 2 years for *Steve's Parents* in an effort to improve their investment opportunities while also assessing our refactored VBA script to determine the efficacy.
   
-## Results
+## **Results**
 
-### Code Breakdown
+### **Code Breakdown**
 
 To perform our analysis, a series of for loops was created to run through our stocks within a year based on a given user input. The user input would then activate the desired worksheet with the correct data and initialize our array of all the tickers in our excel using the code
 ```
@@ -53,7 +53,7 @@ If Cells(j + 1, 1).Value <> tickers(i) And Cells(j, 1).Value = tickers(i) Then
                     tickerEndingPrices = Cells(j, 6).Value
                 End if
 ```
-### Stock Performance
+### **Stock Performance**
 
 The performance of the listed stocks showed contrasting returns in the years of 2017 and 2018. In 2017, almost all stocks showed a great degree of return (+67.3%) with TERP being the only stock to perform negatively. When change analysis over to the 2018 year, we can see a drastic change in performance from positive to negative with the stocks performaning at an average return of -8.5% with the only stocks netting a positive return being ENPH, and RUN.
 
@@ -65,7 +65,7 @@ The performance of the listed stocks showed contrasting returns in the years of 
 
 </center>
   
-  ### Script Performance
+  ### **Script Performance**
 
   Overall, the refactored script proved very handy as it provided a well structured and organized code that we know will serve the intended purpose. However, amongst the pros of refactoring, the cons of refactoring code can not be disregarded. Reusing code can introduce new bugs and errors that I would usually not catch and is true for most codes as every time it's changed, there is potential for a bug. Furthermore, due to the nature of refactoring, the efficacy of the code may not improve. 
   
@@ -115,7 +115,7 @@ Intuitively, this makes no sense as the code ran near instantaneously and compar
   ```
 ONLY in the module to get a more appropriate time of ~0.5 seconds. Not only does this show the possibility for bugs but also that refactoring code may not improve efficacy as the structure and format of the original code remains, for the most part, unchanged.
   
- ## Conclusion
+ ## **Conclusion**
   
   In summary, the analysis on stock performance during the years of 2017 and 2018 showed a greater return during the 2018 years than the 2017 years as return was nearly all negative in 2017 as contrasted to 2018. Furthermore, the refactoring of the code provided a defined structure and known outcomes but did not seem to improve efficacy of the process.
   
