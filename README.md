@@ -70,4 +70,6 @@ Intuitively, this makes no sense as the code ran near instantaneously and compar
     endTime = Timer
     MsgBox "This code ran in " & ((endTime - startTime)/100000) & " seconds for the year " & (yearValue)
   ```
-ONLY in the module to get a more appropriate time of ~0.5 seconds.
+ONLY in the module to get a more appropriate time of ~0.5 seconds. Not only does this show the possibility for bugs but also that refactoring code may not improve efficacy as the structure and format of the original code remains, for the most part, unchanged.
+  
+
