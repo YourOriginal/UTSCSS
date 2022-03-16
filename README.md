@@ -14,7 +14,7 @@ To perform
 
 The performance of the listed stocks showed contrasting returns in the years of 2017 and 2018. In 2017, almost all stocks showed a great degree of return (+67.3%) with TERP being the only stock to perform negatively. When change analysis over to the 2018 year, we can see a drastic change in performance from positive to negative with the stocks performaning at an average return of -8.5% with the only stocks netting a positive return being ENPH, and RUN.
 
-<p align = "center"
+<p align = "center">
 
 2017 Analysis            |  2018 Analysis
 :-------------------------:|:-------------------------:
