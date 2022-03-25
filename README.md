@@ -14,14 +14,10 @@ The **_C_** was then added into the list if the name did not exist by using an i
 
 
 ``if candidate_name not in candidate_options:
-
             # Add the candidate name to the candidate list.
             candidate_options.append(candidate_name)
-
             # And begin tracking that candidate's voter count.
             candidate_votes[candidate_name] = 0``
             
-``
-f
 
 
