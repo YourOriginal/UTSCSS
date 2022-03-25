@@ -6,7 +6,7 @@ Elections play a pivotol role in community engagement and management, thus accur
 
 *Since the structure of the codes for both candidate and county are similar, I will discuss the general format.*
 
-Prior to beginning the analysis, we initialized the candidate and county lists/dictionaries for names and votes respectively along with initializing the variables for those respective counts. Please note candidate/county will be generalized as C where applicable.
+Prior to beginning the analysis, we initialized the candidate and county lists/dictionaries for names and votes respectively along with initializing the variables for those respective counts. **_Please note candidate/county will be generalized as C where applicable._**
 
 After loading in the file, a for loop was created to loop through each row to extract the candidate and county name and added a vote to the counter variable while doing so using the general format:
 `C_name = row[]`
