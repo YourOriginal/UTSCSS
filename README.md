@@ -59,13 +59,19 @@ The overall results of the election was very decisive and one sided for both the
 Total Votes: 369,711
             
 County Standings:
+            
 1st place: Denver with 82.8% (306,055/369,711)
+            
 2nd place: Jefferson with 10.5% (38,855/369,711)
+            
 3rd place: Arapahoe with 6.7% (24,801/369,711)
             
 Candidate Standings:
+            
 1st place: Diana DeGette with 73.8% (272,892/369,711)
+            
 2nd place: Charles Casper Stockham with 23.0% (85,213/369,711)
+            
 3rd place: Raymond Anthony Doane with 3.1% (11,606/369,711)   
             
             
