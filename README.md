@@ -13,7 +13,7 @@ After loading in the file, a for loop was created to loop through each row to ex
 The **_C_** was then added into the list if the name did not exist by using an if statement. 
 
 
-``if candidate_name not in candidate_options:
+``if candidate_name not in candidate_options:``
 
             # Add the candidate name to the candidate list.
             candidate_options.append(candidate_name)
