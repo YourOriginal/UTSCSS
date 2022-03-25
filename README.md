@@ -4,6 +4,8 @@ Elections play a pivotol role in community engagement and management, thus accur
 
 ## Analysis
 
+### Code, Structure, and format
+
 *Since the structure of the codes for both candidate and county are similar, I will discuss the general format.*
 
 Prior to beginning the analysis, we initialized the candidate and county lists/dictionaries for names and votes respectively along with initializing the variables for those respective counts. **_Please note candidate/county will be generalized as C where applicable._**
@@ -32,9 +34,9 @@ The data was then saved into a new file but with was formatted using F-String no
 
 First, the count for each **_C_** was used to calculate the percent and was then formatted as: `f'{C_name}: {C_percent:.1f}% ({votes_C:,})\n')` and was saved with the format for county:
 
-             f'-------------------------\n'
-             f'Largest County Turnout: {winning_county}\n'
-             f'-------------------------\n')
+            f'-------------------------\n'
+            f'Largest County Turnout: {winning_county}\n'
+            f'-------------------------\n')
             
 For candidate:
 
@@ -50,3 +52,27 @@ This formatting provides any readers with a clean summary as pictured below
   <img src="https://user-images.githubusercontent.com/100324759/160145508-eced43f7-2fc1-400d-8227-2af9dcb3648d.PNG"
 </p>
 
+### Results
+            
+The overall results of the election was very decisive and one sided for both the candidate and county data. As noted in the image above, Denver had the largest representative turnout for their county with over 82.8% of the total votes while Diana DeGette held 73.8% of all votes. Quite a sweep. A break down is provided below.
+
+Total Votes: 369,711
+            
+County Standings:
+1st place: Denver with 82.8% (306,055/369,711)
+2nd place: Jefferson with 10.5% (38,855/369,711)
+3rd place: Arapahoe with 6.7% (24,801/369,711)
+            
+Candidate Standings:
+1st place: Diana DeGette with 73.8% (272,892/369,711)
+2nd place: Charles Casper Stockham with 23.0% (85,213/369,711)
+3rd place: Raymond Anthony Doane with 3.1% (11,606/369,711)   
+            
+            
+## Audit Summary  
+
+Overall, the script for the election audit provided both a clean answer a long with an export that is well organized. The format for the code can be refactored to be used in a wide array of other election audits. As noted above candidate and county can be interchanged to what variables you need. The general structure is as follows:
+            
+  ` initia `
+            
+            
