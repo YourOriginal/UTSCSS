@@ -73,6 +73,21 @@ Candidate Standings:
 
 Overall, the script for the election audit provided both a clean answer a long with an export that is well organized. The format for the code can be refactored to be used in a wide array of other election audits. As noted above candidate and county can be interchanged to what variables you need. The general structure is as follows:
             
-  ` initia `
+  `         initialize dependencies
+            
+            add variables for load and save location
+            
+            initalize variables such as list and dictionary to keep track of names and vote count respectively
+            
+            variables to track winning count, %, and name
+            
+            create for loop to add to total vote and get candidate/county name
+            
+            add to name to list and a +1 to vote count in dicitionary to corresponding name
+            
+            print results in f-string format `
+            
+            
+            
             
             
