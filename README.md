@@ -60,7 +60,7 @@ Total Votes: 369,711
             
 County Standings:
             
-1st place: Denver with 82.8% (306,055/369,711)
+*1st place*: Denver with 82.8% (306,055/369,711)
             
 2nd place: Jefferson with 10.5% (38,855/369,711)
             
