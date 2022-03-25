@@ -73,7 +73,7 @@ Candidate Standings:
 
 Overall, the script for the election audit provided both a clean answer a long with an export that is well organized. The format for the code can be refactored to be used in a wide array of other election audits. As noted above candidate and county can be interchanged to what variables you need. The general structure is as follows:
             
-           `initialize dependencies
+            initialize dependencies
             
             add variables for load and save location
             
