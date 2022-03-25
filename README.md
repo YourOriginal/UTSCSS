@@ -56,23 +56,23 @@ This formatting provides any readers with a clean summary as pictured below
             
 The overall results of the election was very decisive and one sided for both the candidate and county data. As noted in the image above, Denver had the largest representative turnout for their county with over 82.8% of the total votes while Diana DeGette held 73.8% of all votes. Quite a sweep. A break down is provided below.
 
-Total Votes: 369,711
+**Total Votes: 369,711**
             
-County Standings:
+**County Standings:**
             
-*1st place*: Denver with 82.8% (306,055/369,711)
+**1st place**: Denver with 82.8% (306,055/369,711)
             
-2nd place: Jefferson with 10.5% (38,855/369,711)
+**2nd place**: Jefferson with 10.5% (38,855/369,711)
             
-3rd place: Arapahoe with 6.7% (24,801/369,711)
+**3rd place**: Arapahoe with 6.7% (24,801/369,711)
             
-Candidate Standings:
+**Candidate Standings:**
             
-1st place: Diana DeGette with 73.8% (272,892/369,711)
+**1st place**: Diana DeGette with 73.8% (272,892/369,711)
             
-2nd place: Charles Casper Stockham with 23.0% (85,213/369,711)
+**2nd place**: Charles Casper Stockham with 23.0% (85,213/369,711)
             
-3rd place: Raymond Anthony Doane with 3.1% (11,606/369,711)   
+**3rd place**: Raymond Anthony Doane with 3.1% (11,606/369,711)   
             
             
 ## Audit Summary  
