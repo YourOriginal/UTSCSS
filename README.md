@@ -32,9 +32,9 @@ The data was then saved into a new file but with was formatted using F-String no
 
 First, the count for each **_C_** was used to calculate the percent and was then formatted as: `f'{C_name}: {C_percent:.1f}% ({votes_C:,})\n')` and was saved with the format for county:
 
-                        f'-------------------------\n'
-                        f'Largest County Turnout: {winning_county}\n'
-                        f'-------------------------\n')
+             f'-------------------------\n'
+             f'Largest County Turnout: {winning_county}\n'
+             f'-------------------------\n')
             
 For candidate:
 
@@ -43,5 +43,10 @@ For candidate:
             f"Winning Vote Count: {winning_count:,}\n"
             f"Winning Percentage: {winning_percentage:.1f}%\n"
             f"-------------------------\n")
+            
+This formatting provides any readers with a clean summary as pictured below
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/100324759/160145508-eced43f7-2fc1-400d-8227-2af9dcb3648d.PNG"
+</p>
 
