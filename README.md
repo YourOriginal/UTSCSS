@@ -4,7 +4,7 @@ Elections play a pivotol role in community engagement and management, thus accur
 
 ## Analysis
 
-### Code, Structure, and format
+### Code, Structure, and Format
 
 *Since the structure of the codes for both candidate and county are similar, I will discuss the general format.*
 
