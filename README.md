@@ -94,7 +94,7 @@ Overall, the script for the election audit provided both a clean answer a long w
             print results in f-string format `
             
             
-In conclusion the script provides a reliable summary of the data provided and showed that the county Denver had the greatest turn out with Diana DeGette winning the election.           
+In conclusion the script provides a reliable summary of the data provided and showed that the county Denver had the greatest turn out with Diana DeGette winning the election. Furthermore, the recyclability of this script can provide a great backbone for any future uses for similar analysis.        
             
             
             
