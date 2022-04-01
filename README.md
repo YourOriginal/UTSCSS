@@ -1,0 +1,3 @@
+# School District Analysis via Pandas
+
+Understanding the dynamics of education and their impact on student performance is vital to creating plans to further improve the students experience. Information such as student count, budget, and type may impact the overall grade and passing percentages of students in standardized tests. In this analysis, we will use a set of data that contains such metrics on a number of different schools and identify trends in student performance. Getting this information will allow school boards to make informed decisions to make improvements to any identifiable weaknesses.
