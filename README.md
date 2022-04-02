@@ -16,16 +16,19 @@ Several other pieces of information were then found such as total students, numb
                           
                           i.e THS_math_score = school_data_complete_df[(school_data_complete_df["math_score"] >= 70)].count()["student_name"]
 
-After getting the counts, several things were changed due to the removal of the Gr9 student's grades and are summarized in the table below.
+After getting the counts, several things were changed in the data for THS due to the removal of the Gr9 student's grades and are summarized in the table below.
 
 | Metric  | Old | New |
 | ------------- | ------------- | ------------- |
-| Student Count | 39170  | 79.0%  |
-| Math Score Avg  | 79.0%  | 79.0%  |
-| Reading Score Avg  | 81.9%  | 81.9%  |
-| % Pass Math | 75.0%  | 74.8%  |
-| % Pass Reading | 85.0%  | 85.7%  |
-| % Overall Pass | 65.2%  | 64.9%  |
+| Student Count | 1635  | 1635  |
+| Math Score Avg  | 83.35%  | 83.4%  |
+| Reading Score Avg  | 83.8%  | 83.9%  |
+| % Pass Math | 93.3%  | 93.2%  |
+| % Pass Reading | 97.3% | 97.0%%  |
+| % Overall Pass | 90.9%  | 90.6%  |
+| Total School Budget | 1043130 | 1043130 |
+
+
 
 
 
