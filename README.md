@@ -4,8 +4,12 @@ Managing thousands of employees is a time consuming task if it has to be done by
 
 ## Analysis and Code
 
-Prior to any SQL work, a database diagram was created to map out the various tables and other important information such as primary keys in an organized manner. 
+Prior to any SQL work, a database diagram was created to map out the various tables and other important information such as primary keys in an organized manner as we can see below. 
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/100324759/164355027-44b91353-72bf-4a12-8158-f94bd7cf18bb.png">  
+</p>
 
+With 6 tables and 6 csv files of HP data imported into our tables, we could then begin creating queries for the first task: determining retiring staff members and their respective titles.
 
-With 6 tables and 6 csv files imported into our tables, we could then begin creating queries for the first task: determining retiring staff members and their respective titles.
+### Determining Retiring Employes by Title
 
