@@ -8,8 +8,10 @@ Prior to any SQL work, a database diagram was created to map out the various tab
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/100324759/164355027-44b91353-72bf-4a12-8158-f94bd7cf18bb.png">  
 </p>
+Here we can see the necessary columns for each table and the primary keys along with how they connect with others. 
 
 With 6 tables and 6 csv files of HP data imported into our tables, we could then begin creating queries for the first task: determining retiring staff members and their respective titles.
 
 ### Determining Retiring Employes by Title
 
+Data was first performed an inner join on 2 tables: employee (employee nom, names), and titles (title, dates title was acquired/lost) into a new table called retiring_table on primary key emp_no. We then filitered by the dates 1952 and 1955 to find out whos retiring along with their title. However, this table gave us duplicates since people get promoted or changed roles over the years. To fix this, the DISTINCT ON function can be used on the emp_no in order to remove duplicate rows.
