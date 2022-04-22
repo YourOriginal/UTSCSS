@@ -21,4 +21,18 @@ Data was first performed an inner join on 2 tables: employee (employee nom, name
 
 ### Employees Eligible for Mentorship
 
-To determine which employees are eligible for the mentorship program, a similar query was created - retrieved data from employees table along with which department they are, then retrieved title from titles table and merged the tables with a DISTINCT ON clause. Employees eligibile are those whos' birthdate is in 1995 so it was filtered as such while leaving to_date to include all current employees (1999-01-01). 
+To determine which employees are eligible for the mentorship program, a similar query was created - retrieved data from employees table along with which department they are, then retrieved title from titles table and merged the tables with a DISTINCT ON clause. Employees eligibile are those whos' birthdate is in 1995 so it was filtered as such while leaving to_date to include all current employees (1999-01-01).  Data was then exported into the data folder as mentorship_eligibility.csv.
+<p align="center"> 
+   <img src='https://user-images.githubusercontent.com/100324759/164766375-31631966-987d-4251-b46b-6435e68abdda.PNG'>
+  </p>
+
+
+  ## Conclusions
+  
+  After performing a count function on the retiring employees table, we got the following results:
+ <p align="center">  
+<img src='https://user-images.githubusercontent.com/100324759/164787955-a1fac311-1f2f-42c4-8520-19d926f0bbd0.png'
+   </p>
+We can see that the majority of retiring staff ended in senior positions, while other jobs such as staff, and assistants don't have nearly as many counts,
+  
+ With the mentorship program, a final count of 1549 people are eligible for the program.
