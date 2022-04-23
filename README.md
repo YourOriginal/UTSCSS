@@ -35,4 +35,6 @@ To determine which employees are eligible for the mentorship program, a similar 
    </p>
 We can see that the majority of retiring staff ended in senior positions, while other jobs such as staff, and assistants don't have nearly as many counts,
   
- With the mentorship program, a final count of 1549 people are eligible for the program.
+With the mentorship program, a final count of 1549 people are eligible for the program.
+  
+  Although my code worked fine and gave the results needed, it is also possible to do it other ways. One such way is to filter the data prior to all the merging. Filter the relevant table (i.e the table that includes dates and select 1952-1955) and create a new table based on that. Merging would occur after and give a result without having to add the date filter in the query.
