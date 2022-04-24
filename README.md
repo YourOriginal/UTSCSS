@@ -30,9 +30,11 @@ To determine which employees are eligible for the mentorship program, a similar 
   ## Conclusions
   
   After performing a count function on the retiring employees table, we got the following results:
+  
  <p align="center">  
 <img src='https://user-images.githubusercontent.com/100324759/164787955-a1fac311-1f2f-42c4-8520-19d926f0bbd0.png'
    </p>
+  
 We can see that the majority of retiring staff ended in senior positions, while other jobs such as staff, and assistants don't have nearly as many counts,
   
 With the mentorship program, a final count of 1549 people are eligible for the program.
