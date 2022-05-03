@@ -13,7 +13,7 @@ engine = create_engine("sqlite:///C:\\Users\\janze\\Documents\\UTSCSS\\Class\\ha
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 
-Measurement = Base.classes.measurementX
+Measurement = Base.classes.measurement
 Station = Base.classes.station
 
 session = Session(engine)
