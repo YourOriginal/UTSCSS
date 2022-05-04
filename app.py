@@ -9,7 +9,7 @@ from sqlalchemy import create_engine, func
 from flask import Flask, jsonify
 import app
 
-engine = create_engine("sqlite:///C:\\Users\\janze\\Documents\\UTSCSS\\Class\\hawaii.sqlite")
+engine = create_engine("sqlite:///hawaii.sqlite")
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 
