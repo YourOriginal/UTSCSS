@@ -18,8 +18,8 @@ def scrape_all():
       "news_paragraph": news_paragraph,
       "featured_image": featured_image(browser),
       "facts": mars_facts(),
-      "last_modified": dt.datetime.now(),
-      'hemisphere_info': hemispheres(browser)
+      'hemispheres': hemispheres(browser),
+      "last_modified": dt.datetime.now()
     }
     # Stop webdriver and return data
     browser.quit()
@@ -114,24 +114,26 @@ def hemispheres(browser):
 
        # Finally, we navigate backwards
        browser.back()
+
    return hemisphere_image_urls
 
 def scrape_hemisphere(html_text):
    # parse html text
-   hemi_soup = soup(html_text, "html.parser")
+    hemi_soup = soup(html_text, "html.parser")
    # adding try/except for error handling
-   try:
+    try:
        title_elem = hemi_soup.find("h2", class_="title").get_text()
        sample_elem = hemi_soup.find("a", text="Sample").get("href")
-   except AttributeError:
+    except AttributeError:
        # Image error will return None, for better front-end handling
        title_elem = None
        sample_elem = None
-       hemispheres = {
+
+    hemispheres = {
        "title": title_elem,
        "img_url": sample_elem
-   }
-   return hemispheres
+    }
+    return hemispheres
 
 if __name__ == "__main__":
 
