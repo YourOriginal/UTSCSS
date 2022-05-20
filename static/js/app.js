@@ -62,23 +62,23 @@ function filterTable() {
   // matches the filter values
   Object.entries(filters).forEach(([filterId, valueElement]) => {
     if (filters[filterId]) {
-      filteredData = filteredData.filter(entry => entry.datetime === valueElement);
+      filteredData = filteredData.filter(entry => entry[filterId] === valueElement);
 
     }
     if (filters[filterId]) {
-      filteredData = filteredData.filter(entry => entry.city === valueElement);
+      filteredData = filteredData.filter(entry => entry[filterId] === valueElement);
 
     }
     if (filters[filterId]) {
-      filteredData = filteredData.filter(entry => entry.state === valueElement);
+      filteredData = filteredData.filter(entry => entry[filterId] === valueElement);
 
     }
     if (filters[filterId]) {
-      filteredData = filteredData.filter(entry => entry.country === valueElement);
+      filteredData = filteredData.filter(entry => entry[filterId] === valueElement);
 
     }
     if (filters[filterId]) {
-      filteredData = filteredData.filter(entry => entry.shape === valueElement);
+      filteredData = filteredData.filter(entry => entry[filterId] === valueElement);
     }
 
   });
